@@ -7,3 +7,9 @@ body{
 h2{
     width: 40%;
 }
+.container{
+    display: block;
+}
+.pic{
+    width: 30vw;
+}
