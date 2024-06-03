@@ -1,0 +1,29 @@
+<script>
+    console.log("day 2 0f learning")
+let variableLet = 'I can be reassigned';
+const variableConst = 'I cannot be reassigned';
+
+// Arrow Functions
+const add = (a, b) => a + b;
+const greet = name => `Hello, ${name}!`;
+
+// Template Literals
+const name = 'Anjal';
+const greeting = `Hello, ${name}! How are you today?`;
+
+// Destructuring
+const person = { firstName: 'Anjal', lastName: 'Shrestha', age: 22 };
+const { firstName, lastName } = person;
+
+const numbers = [1, 2, 3, 4];
+const [first, second, ...rest] = numbers;
+
+console.log(variableLet);
+console.log(variableConst); 
+console.log(add(2, 3));
+console.log(greet('Anjal'));
+console.log(greeting);
+console.log(firstName, lastName);
+console.log(first, second, rest);
+</script>
+
