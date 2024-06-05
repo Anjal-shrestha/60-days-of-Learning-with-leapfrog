@@ -1,7 +1,6 @@
 // main.js
 import { Person } from './person.js';
 import { Learner } from './learner.js';
-
 const person = new Person('Tattu', 30);
 console.log(person.greet()); // Hello, my name is Tattu and I am 30 years old.
 
