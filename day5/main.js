@@ -1,6 +1,5 @@
-// main.js
 
-// Function to fetch data from the Fake Store API
+
 function fetchData() {
     return fetch('https://fakestoreapi.com/products')
         .then(response => {
@@ -11,7 +10,6 @@ function fetchData() {
         });
 }
 
-// Handling the fetch with then, catch, and finally
 document.getElementById('fetchDataButton').addEventListener('click', () => {
     const dataOutput = document.getElementById('dataOutput');
     dataOutput.innerHTML = '<p class="text-gray-700">Fetching data...</p>';

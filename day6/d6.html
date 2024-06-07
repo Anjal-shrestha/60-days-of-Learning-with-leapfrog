@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6: Search Functionality</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex flex-col items-center p-6">
+    <div class="container mx-auto text-center">
+        <h1 class="text-3xl font-bold mb-6">Day 6: Search Functionality</h1>
+        <input type="text" id="searchInput" class="border-2 border-gray-300 p-2 mb-4 w-full max-w-lg" placeholder="Search products...">
+        <button id="fetchDataButton" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 mb-4">Fetch Data</button>
+        <div id="dataOutput" class="output mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
